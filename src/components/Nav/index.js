@@ -4,19 +4,23 @@ function Nav() {
       <header>
     <h2>
       <a href="/">
-        <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+        <span role="img" aria-label="camera"> 👨🏿‍💻</span>
       </a>
     </h2>
     <nav>
+        <h1>Reggie Tenkorang</h1>
       <ul className="flex-row">
-        <li className="mx-2">
+        <ol className="mx-2">
           <a href="#about">
             About me
           </a>
-        </li>
-        <li>
+        </ol>
+        <ol>
+          <span>Portfolio</span>
+        </ol>
+        <ol>
           <span>Contact</span>
-        </li>
+        </ol>
       </ul>
     </nav>
   </header>
