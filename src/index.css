@@ -10,6 +10,7 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --pallet: #706a8b;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -33,8 +34,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--light);
-  color: var(--light);
+  background: var(--pallet);
+  color: var(--dark);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -49,6 +50,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: yellowgreen;
 }
 
 h1 {
@@ -301,4 +303,13 @@ a {
 .header img {
   width: 700rem;
   height: 12rem;
+}
+
+#contact-form {
+  margin: auto;
+  
+}
+
+.FooterItems {
+  justify-content: center;
 }

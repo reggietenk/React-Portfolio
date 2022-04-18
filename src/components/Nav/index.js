@@ -9,17 +9,18 @@ function Nav() {
     </h2>
     <nav>
         <h1>Reggie Tenkorang</h1>
-      <ul className="flex-row">
+        <ul className="flex-row">
         <ol className="mx-2">
-          <a href="#about">
-            About me
-          </a>
+          <a href="#about" >About Me</a>
         </ol>
         <ol>
-          <span>Portfolio</span>
+          <a href="#portfolio" >Portfolio</a>
         </ol>
         <ol>
-          <span>Contact</span>
+         <a href="#contact" >Contact</a>
+        </ol>
+        <ol>
+        <a href="#resume" >Resume</a>
         </ol>
       </ul>
     </nav>
